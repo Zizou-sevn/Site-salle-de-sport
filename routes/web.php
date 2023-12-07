@@ -14,26 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    return view('Acceuil');
-});
+Route::get('/', [MainController::class, 'AccueilController'])->name('main.Acceuil');
 
-Route::get('/cours', function () {
-    return view('cours');
-});
+Route::get('/Cours', [MainController::class, 'CoursController'])->name('main.Cours');
 
-Route::get('/tarifs', function () {
-    return view('tarifs');
-});
+Route::get('/Tarifs', [MainController::class, 'TarifsController'])->name('main.Tarifs');
 
-Route::get('/tarifs', function () {
-    return view('tarifs');
-});
+Route::get('/Tarifs', [MainController::class, 'TarifsController'])->name('main.Tarifs');
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/Contacts', [MainController::class, 'Contact.Controller'])->name('main.Contact');
 
-Route::get('/mentions-legales', function () {
-    return view('mentions-legales');
-});
+Route::get('/MentionsLegales', [MainController::class, 'MentionsLegales.Controller'])->name('main.MentionsLegales');
