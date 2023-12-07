@@ -20,8 +20,6 @@ Route::get('/Cours', [MainController::class, 'CoursController'])->name('main.Cou
 
 Route::get('/Tarifs', [MainController::class, 'TarifsController'])->name('main.Tarifs');
 
-Route::get('/Tarifs', [MainController::class, 'TarifsController'])->name('main.Tarifs');
-
 Route::get('/Contacts', [MainController::class, 'Contact.Controller'])->name('main.Contact');
 
 Route::get('/MentionsLegales', [MainController::class, 'MentionsLegales.Controller'])->name('main.MentionsLegales');
