@@ -16,8 +16,29 @@
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <br>
     <hr>
-    <input type="email">
-    <input type="text">
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <button></button>
+    
+    <h2>Nous Envoyez un mail</h2>
+    <form action="Contact.html"></form>
+    <div>
+        <label for="email">Votre email</label>
+        <input type="email" required name="email" id="email" placeholder="votre@email.fr">
+    </div>
+    <div>
+        <label for="Nom">Votre nom</label>
+        <input type="text" required name="Nom" id="Nom" placeholder="nom">
+    </div>
+    <div>
+        <label for="telephone">Numero de Telephone</label>
+        <input type="telephone" required name="telephone" id="telephone" placeholder="telephone">
+    </div>
+    <div>
+        <label for="message"> Votre message</label>
+        <textarea name="message" id="message" required cols="30" rows="10" placeholder="Ecrivez-nous"></textarea>
+    </div>
+    <button type="submit">Envoyer votre email</button>
+    <div>
+        <br>
+        <input type="checkbox"> j'accepte les conditions
+        <button type="submit"> Valider</button>
+    </div>
 @endsection

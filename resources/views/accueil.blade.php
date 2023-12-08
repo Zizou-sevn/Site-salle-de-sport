@@ -17,4 +17,8 @@
     
     Bienvenue chez [Nom de la Salle de Sport] – où la passion, le dévouement et la transformation s'unissent pour créer une vie plus saine et plus heureuse.</p>
 
+        
+    <img class="img-redef" src="Image/Image-sport-salle.jpg" alt="Image de salle de sport">
+    <img class="img-redif" src="Image/Image-sport-Tractions.jpg" alt="Image homme tractions">
+
 @endsection
