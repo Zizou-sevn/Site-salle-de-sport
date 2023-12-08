@@ -5,7 +5,7 @@
 @section ('content')
 <h2>Accueil</h2>
 
-<p>Bienvenue dans notre oasis de bien-être, un lieu où le changement commence et où chaque goutte de sueur témoigne de votre détermination à atteindre vos objectifs. Chez [Nom de la Salle de Sport], nous ne sommes pas seulement une salle de sport, nous sommes une communauté passionnée qui s'engage à vous accompagner tout au long de votre parcours de remise en forme.
+<p class="paragraphe">Bienvenue dans notre oasis de bien-être, un lieu où le changement commence et où chaque goutte de sueur témoigne de votre détermination à atteindre vos objectifs. Chez [Nom de la Salle de Sport], nous ne sommes pas seulement une salle de sport, nous sommes une communauté passionnée qui s'engage à vous accompagner tout au long de votre parcours de remise en forme.
 
     Ici, chaque levée de poids, chaque foulée sur le tapis de course et chaque goutte de sueur ont un seul objectif : révéler la meilleure version de vous-même. Notre équipe dévouée de coachs expérimentés est là pour vous guider, vous encourager et vous inspirer à chaque étape. Que vous soyez un débutant cherchant à adopter un mode de vie plus sain ou un athlète chevronné cherchant à repousser vos limites, vous trouverez un foyer ici.
     

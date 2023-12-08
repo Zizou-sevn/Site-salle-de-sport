@@ -8,20 +8,27 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body>
-    <header>
-        <h1>Fitness A.Y</h1>
-        <a href="{{ route('main.accueil') }}">Accueil</a>
-        <a href="{{ route('main.Cours') }}">Cours</a>
-        <a href="{{ route('main.Tarifs') }}">Tarifs</a>
-        <a href="{{ route('main.Contact') }}">Contacts</a>
-        <a href="{{ route('main.mentions-legales') }}">Mentions Legales</a>
+<body class="body">
+    <header class="header">
+        <div>
+            <h1 class="title-big">Fitness A.Y</h1>
+            <nav class="header-nav">
+                <a href="{{ route('main.accueil') }}">Accueil</a>
+                <a href="{{ route('main.Cours') }}">Cours</a>
+                <a href="{{ route('main.Tarifs') }}">Tarifs</a>
+                <a href="{{ route('main.Contact') }}">Contacts</a>
+                <a href="{{ route('main.mentions-legales') }}">Mentions Legales</a>
+            </nav>
+        </div>
     </header>
-    @yield('content')
-    <footer>
-        <a href="{{ route('main.mentions-legales') }}">Mentions Legales</a>
-    </footer>
 
+    <article class="main">
+        @yield('content')
+
+        <footer class="footer">
+            <a href="{{ route('main.mentions-legales') }}">Mentions Legales</a>
+        </footer>
+    </article>
 </body>
 
 </html>
