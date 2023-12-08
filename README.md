@@ -64,3 +64,38 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+ 
+ <!-- Notice du Projet -->
+
+# Nom du projet
+
+Site "salle de sport" sous (Laravel 10) 
+
+## Prérequis
+
+- vscode
+- composer
+- artisan
+- npm
+
+## Installation
+
+Créez un nouveau projet Laravel avec la commande : "composer create-project laravel/laravel foo"
+
+Installer les dépendances du front-end avec la commande : "npm install"
+
+Lancez le serveur web de développement : "php artisan serve"
+
+
+Pour que ces fichiers deviennent accessibles via le serveur web, vous devez lancer un serveur de fichiers statique avec la commande suivante : "npm run dev"
+
+## Utilisation
+
+Depuis la racine du projet (a savoir dans le terminal), lancez un serveur web :
+
+Puis ouvrez le lien [http://127.0.0.1:8000].
+
+## Contact
+
+Pour toute demande d'information, contactez zinedine.ayachi@outlook.com
